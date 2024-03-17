@@ -7,8 +7,6 @@ correctamente. Tenga en cuenta datos faltantes y duplicados.
 
 """
 import pandas as pd
-from functools import reduce
-import sweetviz as sv
 
 def clean_col(df, col_name):
     df = df.copy()
